@@ -13,11 +13,11 @@ app.use(bodyParser.text());
 
 
 // require(path.join(__dirname, './app/routing/apiRoutes'))(app);
-// require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+// require(path.join(__dirname, './app/routing/HtmlRoutes'))(app);
 
 
 require("./app/routing/apiRoutes")(app);
-require("./app/routing/htmlRoutes")(app);
+require("./app/routing/HtmlRoutes")(app);
 
 
 app.listen(PORT, function() {

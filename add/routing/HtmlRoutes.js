@@ -8,6 +8,6 @@ module.exports = function(app) {
 	});
 
 	app.use(function(req,res) {
-		res.sendFile(path.join(_dirname,"/..public/home/html"));
+		res.sendFile(path.join(_dirname,"/..public/home.html"));
 	});
 };
